@@ -15,6 +15,12 @@ height: 100%;
 }
 .left-inline, .right-inline{
     width: 45%;
+    height: 100%;
+    display: inline-block;
+    margin-top: 10%;
+}
+.left-inline{
+    text-align: left;
     margin-top: 100px;
     display: inline-block;
 }
@@ -26,6 +32,7 @@ height: 100%;
 }
 #render-wiki{
     position: relative;
+    width: 100%;
     width: 50%;
     height: 250px;
 }
