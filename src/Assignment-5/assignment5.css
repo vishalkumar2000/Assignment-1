@@ -1,7 +1,59 @@
 /* Our CSS file. */
+*{
+    box-sizing: border-box;
+}
 
-
-.container, .content {
+html,.container, .content {
 width: 100%;
 height: 100%;
+}
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.wrap{
+    height: 100%;
+}
+.card{
+    display: flex;
+    flex:0 0 auto;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+     box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.49);
+-webkit-box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.49); 
+
+}  
+.left-card{
+    background-color: #91C674;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.left-card img{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    /* margin-right: 50px; */
+}
+.right-card{
+    width: 70%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.btn{
+    background-color: #91C674;
+    width: 25%;
+    border-radius:25px;
+    height: 40px;
+    color: white;
+    margin-top: 30px;
+    
 }
